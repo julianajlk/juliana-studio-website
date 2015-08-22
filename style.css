@@ -1,0 +1,352 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300,500,600);
+
+#background {
+  background-image: url('images/studio-background-repeat-caju.jpg');
+  background-size: 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+#background-overlay {
+  background-image: url('images/studio-background-repeat-overlay.png');
+  background-size: 50%;
+  background-scroll: scroll;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.footer-4 p {
+  font-size: 0.7em;
+}
+
+.footer-3 p {
+  font-size: 0.7em;
+}
+
+#details a:link, #details a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#details a:active {
+  color: #c0c0c0;
+  text-decoration: underline;
+}
+
+/*///MEDIA///*/
+
+.main-logo {
+  width: 180px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+}
+
+.logo-menu {
+  width: 1.8em;
+  display: inline;
+  float: right;
+}
+
+.footer-1 img {
+  width: 100px;
+  display: inline;
+  margin: 0;
+}
+
+.collection-1 img {
+  width: 490px;
+  height: 490px;
+}
+
+.collection-2 img {
+  width: 490px;
+  height: 490px;
+}
+
+/*///NAVIGATION///*/
+
+ul {
+  position: relative;
+  font-size: 0.8em;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+/*// SOCIAL //*/
+
+#social a {
+  margin-right: 10px;
+  color: #000;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/*///LAYOUT///*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  padding: 10px 20px 10px;
+  background: #acb3ad;
+}
+
+.nav-1, .nav-2, .nav-3, ul {
+  position: relative; 
+  top: 35%;
+}
+
+.nav-1 {
+  float: left;
+  width: 15%;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+.nav-2 { 
+  float: left;
+  width: 70%;
+  margin: 0px;
+}
+
+.nav-3 {
+  float: left;
+  width: 15%;
+  margin-left: 0px;
+}
+
+.col-1 {
+  float: left;
+  width: 50%;
+  background: #fff;
+  padding-top: 80px;
+}
+
+.col-1 img {
+  width: 80%;
+}
+
+.col-2 {
+  float: right;
+  width: 50%;
+  background: #fff;
+  padding-top: 80px;
+}
+
+.col-2 img {
+  width: 80%;
+}
+
+.collections {
+  padding: 50px;
+  position: relative;
+}
+
+.about-col-1 {
+  float: left;
+  margin: 0;
+  background: #facdce;
+  width: 30%;
+  height: 350px;
+  padding: 50px;
+}
+
+.collections h2 {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.about-col-2 {
+  float: right;
+  margin: 0;
+  background: #f4805e;
+  width: 70%;
+  height: 350px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 50px;
+}
+
+.footer-wrapper {
+  background: #acb3ad;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.footer-1 {
+  padding-top: 50px;
+  padding-left: 60px;
+  float: left;
+  width: 75%;
+  margin-bottom: 10px;
+  margin-right: 0px;
+}
+
+.footer-2 { 
+  padding-top: 60px;
+  float: right;
+  width: 25%;
+  margin: 0px;
+}
+
+.footer-3 {
+  float: left;
+  width: 25%;
+  margin-left: 0px;
+  padding-top: 20px;
+}
+
+#social.footer-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-4 {
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 75%;
+  margin: 0px;
+}
+
+/*///SECTIONS///*/
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/*.footer-wrapper {
+  background: #acb3ad;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.footer-1 {
+  padding-top: 50px;
+  float: left;
+  width: 33.3%;
+  margin-right: 0px;
+  text-align: center;
+}
+
+#social.footer-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-2 { 
+  padding-top: 50px;
+  float: left;
+  width: 33.3%;
+  margin: 0px;
+  text-align: center;
+}
+
+.footer-3 {
+  padding-top: 50px;
+  float: left;
+  width: 33.3%;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.footer-4 {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+*/
+
+
+
+
+/*.parent {
+    display: table;
+    width: 100%;
+    height: 200px;
+}
+
+.child {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.a {
+    width: 40%;
+}
+
+b {
+    width: 60%;
+}
+ 
+
+img [alt=""] {
+
+ }
+[class*="col-"] 
+
+<div class="parent">
+    <div class="child a">
+        A
+    </div>
+    <div class="child b">
+        B
+    </div>
+</div>
+*/
