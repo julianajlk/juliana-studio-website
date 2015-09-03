@@ -1,4 +1,4 @@
-$(function(){
+$(window).on('load', function(){
 
   $('.featured-items').masonry({
     // options
