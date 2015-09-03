@@ -19,6 +19,7 @@
   </header> 
 
 <div class="foreground">
+
   <nav class="navbar">
     <div class="nav-1">
       <a href="main.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a></li>
@@ -28,7 +29,7 @@
       <li><a href="sobre.html">Sobre</a></li>
       <li><a href="criacao.html">Criação</a></li>
       <li><a href="colecao.html">Coleção</a></li>
-      <li><a href="clientes.html">Clientes</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
     </div>
@@ -38,66 +39,75 @@
     </div>
   </nav>
 
-  <section id="home-page" class="collections">
+  <section class="home-page clearfix" id="collections">
     <div class="col-1">
-      <h2>Coleção Botânica</h2>
-      <img class="collection-1" src="images/studio-collection-1-sq.jpg">
+      <h2>Coleção Caju</h2>
+      <div class="collection-1">
+        <div class="title-background">
+          <div class="title">
+            <h5>Title Here</h5>
+          </div>
+        </div>
+    </div>
     </div>
     <div class="col-2">
-    <h2>Coleção Tropical</h2>
-      <img class="collection-2" src="images/studio-collection-2-sq.jpg">
+      <h2>Coleção Tropical</h2>
+      <div class="collection-2">
+        <div class="title-background">
+          <div class="title">
+            <h5>Title Here 2</h5>
+          </div>
+        </div>    
+      </div>
     </div>
   </section>
 
-   <section id="home-page" class="featured">
-    <div class="col-1">
-      <h1>Coleção Botânica</h1>
-      <img class="featured-1" src="images/studio-collection-1.jpg">
-    </div>
-    <div class="col-2">
-    <h1>Coleção Tropical</h1>
-      <img class="featured-2" src="images/studio-collection-2.jpg">
+  <section class="home-page clearfix" id="featured">
+    <h3>Coleção Monstera</h3>
+    <div class="featured-items">
+      <div class="item featured-1-b"></div>
+      <div class="item featured-1-a"></div>
+      <div class="item featured-2-a"></div>
+      <div class="item featured-3-b"></div>
+      <div class="item featured-3-a"></div>
+      <div class="item featured-2-b"></div>
     </div>
   </section>
 
-  <section id="home-page" class="about">
-    <div class="about-col-1">
-      <h4>Amaré | Amar é...</h4>
-    </div>
-    <div class="about-col-2">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+  <section class="home-page" id="about">
+      <h1>Criar, Estampar, Amar</h1>
+      <p>Made with &#9829 in Ceará</p>
+      <div class="about-symbol">
+        <img class="single-symbol" src="images/studio-single-cactus-2.png">
+      </div>
   </section>
 
   <footer id=footer-wrapper>
-  <div class="footer-top">
-    <div class="footer-1 border-bottom">
-      <img src="images/studio-logo-footer-2.png">
-      <ul id="details">
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="colecao.html">Coleção</a></li>
-        <li><a href="clientes.html">Clientes</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </div>
-      <div class="footer-2 border-bottom">
-        <div id="social">
+    <div class="container">
+      <div class="footer-top border-bottom">
+        <img src="images/studio-logo-footer-2.png">
+        <ul id="details">
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="colecao.html">Coleção</a></li>
+          <li><a href="servicos.html">Servicos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div id="social-footer">
           <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
           <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
           <a href="http://behance.net/amarestudio"><i class="fa fa-behance fa-fw"></i></a>
         </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-3">
-        <p>Design & Desenvolvimento por Girl Etc</p>
-      </div>
-      <div class="footer-4">
-        <p>&copy; 2015 Amaré Studio. Todos os direitos reservados.</p>
-      </div>
-    </div>
-  </footer>
+      </div><!-- .footer-top -->
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados.</p>
+        <p class="design">Design & Desenvolvimento por <a href="http://www.girletc.com.br/studio">Girl Etc</a></p>
+      </div><!-- .footer-bottom -->
+  </div> <!-- .container -->
+</footer>
 </div><!-- .foreground -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
 
