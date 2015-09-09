@@ -108,6 +108,14 @@ header {
 
 /*///NAVIGATION///*/
 
+/* This class is added on scroll */
+.fixed {
+  position: fixed; 
+  top: 0; 
+  height: 70px; 
+  z-index: 1;
+}
+
 ul {
   display: inline;
   position: relative;
@@ -125,6 +133,10 @@ li {
   display: inline;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+.navbar a.menu-icon {
+  display: none;
 }
 
 /*// SOCIAL //*/
@@ -367,9 +379,7 @@ div.featured-3-b {
   margin-right: auto 
 }
 
-
 /*///FOOTER///*/
-
 #footer-wrapper {
   background: #e6e7e6;
   width: 100%;
@@ -403,8 +413,6 @@ div.featured-3-b {
 .design {
   float: right;
 }
-
-/*///SECTIONS///*/
 
 
 

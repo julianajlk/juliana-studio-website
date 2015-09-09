@@ -1,0 +1,135 @@
+/*//DESKTOP -- DOWN//*/
+
+/*//-->navbar menu icon//*/
+@media only screen and (max-width: 900px) {
+  .nav-2, .nav-3 {
+    display: none;
+  }
+  .navbar a.menu-icon {
+    display: block;
+    text-align: right;
+    font-size: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+  }
+}
+
+/*//-->main-logo//*/
+@media only screen and (max-width: 900px) {
+  .main-logo {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .main-logo {
+    width: 100px;
+  }
+}
+
+
+/*//-->about//*/
+@media only screen and (max-width: 650px) {
+  #about {
+    height: 200px;
+    width: 100%;
+    padding: 35px;
+}
+  #about h1 {
+    font-size: 2em;
+  }
+  #about p {
+    font-size: 0.9em;
+  }
+
+}
+
+/*//-->footer//*/
+@media only screen and (max-width: 900px) {
+  .footer-top img {
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  #details {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .border-bottom {
+    padding-bottom: 20px;
+  }
+  #social-footer {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  p.copyright {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p.design {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*//-->collections//*/
+@media only screen and (max-width: 1150px) {
+  div.collection-1, div.collection-2 {
+    width: 440px;
+    height: 440px;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width:1040px) {
+  div.collection-1, div.collection-2 {
+    width: 400px;
+    height: 400px;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width:950px) {
+  div.collection-1, div.collection-2 {
+    width: 380px;
+    height: 380px;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .col-1, .col-2 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+
+/*//MOBILE -- UP//*/
+@media only screen and (min-width: 940px) {
+   {
+   
+  }
+}
+
+
+/*//DESKTOP -- UP //*/
+@media only screen and (max-width: 1280px) {
+  
+}
+

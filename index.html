@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
   <title>STUDIO WEBSITE</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
@@ -14,12 +16,13 @@
     <div id="background">
     </div>
     <div id="logo">
-      <img class="main-logo" src="images/studio-logo-footer.png">
+      <img class="main-logo" src="images/studio-logo-main.png">
     </div>
   </header> 
 
 <div class="foreground">
 
+<section id="screen1">
   <nav class="navbar">
     <div class="nav-1">
       <a href="main.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a></li>
@@ -37,7 +40,9 @@
       <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
       <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
     </div>
+    <a class="menu-icon"><i class="fa fa-bars"></i></a>
   </nav>
+</section>
 
   <section class="home-page clearfix" id="collections">
     <div class="col-1">
@@ -85,7 +90,7 @@
   <footer id=footer-wrapper>
     <div class="container">
       <div class="footer-top border-bottom">
-        <img src="images/studio-logo-footer-2.png">
+        <img src="images/studio-logo-footer.png">
         <ul id="details">
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="colecao.html">Coleção</a></li>
@@ -108,6 +113,23 @@
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 <script src="js/main.js"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script> <!--.navbar -->
+   $(document).ready(function(){
+     $(window).bind('scroll', function() {
+     var navHeight = $( window ).height() - 70;
+       if ($(window).scrollTop() > navHeight) {
+         $('nav').addClass('fixed');
+       }
+       else {
+         $('nav').removeClass('fixed');
+       }
+    });
+  });
+</script>
+
 </body>
 </html>
 
