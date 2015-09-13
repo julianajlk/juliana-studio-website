@@ -1,19 +1,70 @@
-/*//DESKTOP -- DOWN//*/
+.menu-close {
+  display: none;
+}
+
+.nav-2 {
+  position: static;
+}
 
 /*//-->navbar menu icon//*/
 @media only screen and (max-width: 900px) {
-  .nav-2, .nav-3 {
+  .nav-2 {
     display: none;
   }
+
+  #social {
+    display: none;
+    text-align: center;
+  }
+
   .navbar a.menu-icon {
-    display: block;
+    /*display: block;*/
     text-align: right;
     font-size: 1em;
     display: table-cell;
     vertical-align: middle;
     width: auto;
   }
+  .nav-2 {
+    display: none;
+    background: #c0c0c0;
+    clear: both;
+    position: fixed;
+    right: 0;
+    min-height: 100%;
+    top: 0px;
+    width: 100%;
+    padding: 45px 0px 10px;
+    z-index: 4;
+  }
+
+  .navbar .nav-2 a.menu-close {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .navbar .nav-2 a {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    clear: both;
+  }
+
+  .nav-1 .logo-menu {
+    float: none;
+  }
+
+  .nav-3 .menu-icon {
+    float: right;
+  }
+
+
 }
+
+/*//-->navbar menu dropdown//*/
+
 
 /*//-->main-logo//*/
 @media only screen and (max-width: 900px) {
@@ -45,6 +96,16 @@
 
 }
 
+/*//-->featured items //*/
+@media only screen and (max-width: 700px){
+  .item {
+    float: none;
+    width: 90%;
+    margin: 2%;
+  }
+}
+
+
 /*//-->footer//*/
 @media only screen and (max-width: 900px) {
   .footer-top img {
@@ -54,7 +115,7 @@
     margin-right: auto;
     margin-bottom: 20px;
   }
-  #details {
+  #menu-links {
     display: block;
     margin-left: auto;
     margin-right: auto;

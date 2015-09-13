@@ -49,17 +49,17 @@ header {
   font-size: 0.7em;
 }
 
-#details a:link, #details a:visited {
+#menu-links a:link, #menu-links a:visited {
   color: #000;
   text-decoration: none;
 }
 
-#details a:hover {
+#menu-links a:hover {
   color: #fff;
   text-decoration: none;
 }
 
-#details a:active {
+#menu-links a:active {
   color: #c0c0c0;
   text-decoration: none;
 }
@@ -140,6 +140,11 @@ li {
 }
 
 /*// SOCIAL //*/
+
+#social {
+  position: relative;
+  z-index: 5;
+}
 
 #social a {
   margin-right: 10px;
@@ -295,6 +300,9 @@ div.collection-2 {
 
 .featured-items {
   padding: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
@@ -305,8 +313,8 @@ div.collection-2 {
 
 div.featured-1-a  {
   background:url('images/studio-background-repeat-monstera.jpg') repeat;
-  background-size: 90%;
-  height: 330px;
+  background-size: contain;
+  padding-top: 28.45%;
   display: table-cell;
   vertical-align: middle;
 }
@@ -314,13 +322,13 @@ div.featured-1-a  {
 div.featured-1-b {
   background:url('images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  height: 435px;
+  padding-top: 37.5%;
 }
 
 div.featured-2-a {
   background:url('images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  height: 435px;
+  padding-top: 37.5%;
   display: table-cell;
   vertical-align: middle;
 }
@@ -328,13 +336,13 @@ div.featured-2-a {
 div.featured-2-b  {
   background:url('images/studio-background-repeat-monstera.jpg') repeat;
   background-size: 90%;
-  height: 330px;
+  padding-top: 28.45%;
 }
 
 div.featured-3-a  {
   background:url('images/studio-background-repeat-monstera.jpg') repeat;
   background-size: 90%;
-  height: 330px;
+  padding-top: 28.45%;
   display: table-cell;
   vertical-align: middle;
 }
@@ -342,7 +350,7 @@ div.featured-3-a  {
 div.featured-3-b {
   background:url('images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  height: 435px;
+  padding-top: 37.5%;
 }
 
 

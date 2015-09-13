@@ -25,22 +25,26 @@
 <section id="screen1">
   <nav class="navbar">
     <div class="nav-1">
-      <a href="main.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a></li>
+      <a href="main.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a>
     </div>
     <div class="nav-2">
-    <ul id="details">
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="criacao.html">Criação</a></li>
-      <li><a href="colecao.html">Coleção</a></li>
-      <li><a href="servicos.html">Serviços</a></li>
-      <li><a href="contato.html">Contato</a></li>
-    </ul>
+      <a class="menu-close"><i class="fa fa-times"></i></a>
+      <ul id="menu-links">
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="criacao.html">Criação</a></li>
+        <li><a href="colecao.html">Coleção</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
     </div>
-    <div id="social" class="nav-3">
-      <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
-      <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
+    <div class="nav-3">
+      <div id="social">
+        <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
+        <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
+      </div>
+      <a class="menu-icon"><i class="fa fa-bars"></i></a>
+
     </div>
-    <a class="menu-icon"><i class="fa fa-bars"></i></a>
   </nav>
 </section>
 
@@ -113,22 +117,6 @@
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 <script src="js/main.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<script> <!--.navbar -->
-   $(document).ready(function(){
-     $(window).bind('scroll', function() {
-     var navHeight = $( window ).height() - 70;
-       if ($(window).scrollTop() > navHeight) {
-         $('nav').addClass('fixed');
-       }
-       else {
-         $('nav').removeClass('fixed');
-       }
-    });
-  });
-</script>
 
 </body>
 </html>
