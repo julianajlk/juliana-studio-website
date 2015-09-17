@@ -6,11 +6,8 @@
   position: static;
 }
 
-/*//-->navbar menu icon//*/
+/*//-->navbar menu mobile//*/
 @media only screen and (max-width: 900px) {
-  .nav-2 {
-    display: none;
-  }
 
   #social {
     display: none;
@@ -18,13 +15,13 @@
   }
 
   .navbar a.menu-icon {
-    /*display: block;*/
     text-align: right;
     font-size: 1em;
     display: table-cell;
     vertical-align: middle;
     width: auto;
   }
+
   .nav-2 {
     display: none;
     background: #c0c0c0;
