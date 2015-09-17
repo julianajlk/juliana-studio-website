@@ -282,6 +282,62 @@ div.collection-2 {
   text-align: center;
 }
 
+/*///ABOUT - CREATIVE//*/
+
+/*#about {
+  height: 350px;
+  width: 100%;
+  background: #bae4b5;
+  margin: 0;
+  padding: 50px;
+}
+
+#about h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+  margin: 0.83em 0;
+}
+
+#about p {
+  text-align: center;
+}*/
+
+/*///ABOUT///*/
+
+#about { 
+  background: #d2e9cf;
+}
+
+.about-1 {
+  float: left;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.about-1 h4 {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+
+.about-2 {
+  float: right;
+  width: 70%;
+  text-align: center;
+}
+
+.about-2 p {
+  text-align: center;
+  padding: 20px 80px 10px 20px;
+  line-height: 2em;
+  letter-spacing: 0.02em;
+}
+
 /*///FEATURED///*/
 
 #featured {
@@ -290,14 +346,14 @@ div.collection-2 {
   padding: 15px 0px 75px;
 }
 
-#featured h3 {
+/*#featured h3 {
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   line-height: 4em;
   background: #fff;
-}
+}*/
 
 .featured-items {
   padding: 3%;
@@ -355,9 +411,9 @@ div.featured-3-b {
 }
 
 
-/*///ABOUT///*/
+/*///COMPANY TAGLINE///*/
 
-#about {
+#tagline{
   height: 240px;
   width: 100%;
   background: #Ffd3ca;
@@ -365,7 +421,7 @@ div.featured-3-b {
   padding: 50px;
 }
 
-#about h1 {
+#tagline h1 {
   font-size: 2.5em;
   text-align: center;
   text-transform: lowercase;
@@ -375,12 +431,12 @@ div.featured-3-b {
   margin: 0.83em 0 0;
 }
 
-#about p {
+#tagline p {
   text-align: center;
   margin-bottom: 22px;
 }
 
-.about-symbol img {
+.tagline-symbol img {
   width: 67px;
   vertical-align: middle;
   display: block;
