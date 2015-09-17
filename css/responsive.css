@@ -60,10 +60,7 @@
     float: right;
   }
 
-
 }
-
-/*//-->navbar menu dropdown//*/
 
 
 /*//-->main-logo//*/
@@ -93,7 +90,6 @@
   #about p {
     font-size: 0.9em;
   }
-
 }
 
 /*//-->featured items //*/
@@ -105,53 +101,13 @@
   }
 }
 
-
-/*//-->footer//*/
-@media only screen and (max-width: 900px) {
-  .footer-top img {
-    width: 75px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-  #menu-links {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-  }
-  .border-bottom {
-    padding-bottom: 20px;
-  }
-  #social-footer {
-    float: none;
-    display: block;
-    text-align: center;
-    margin-right: auto;
-    margin-left: 0;
-  }
-  p.copyright {
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  p.design {
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /*//-->collections//*/
 @media only screen and (max-width: 1150px) {
   div.collection-1, div.collection-2 {
     width: 440px;
     height: 440px;
     float: none;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
@@ -160,7 +116,7 @@
     width: 400px;
     height: 400px;
     float: none;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
@@ -169,7 +125,7 @@
     width: 380px;
     height: 380px;
     float: none;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
@@ -177,20 +133,53 @@
   .col-1, .col-2 {
     width: 100%;
     float: none;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
-/*//MOBILE -- UP//*/
-@media only screen and (min-width: 940px) {
-   {
-   
+/*//-->footer//*/
+@media only screen and (max-width: 900px) {
+  .footer-top img {
+    width: 75px;
+    float: none;
+    margin: 10px auto 22px;
   }
-}
 
+  #details {
+    float: none;
+    text-align: center;
+  }
 
-/*//DESKTOP -- UP //*/
-@media only screen and (max-width: 1280px) {
-  
+  #details li {
+    display: block;
+    line-height: 2.5em;
+  }
+
+  .border-bottom {
+    padding-bottom: 20px;
+  }
+
+  #social-footer {
+    float: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 0;
+    padding-bottom: 15px;
+  }
+
+  p.copyright {
+    width: 100%;
+    text-align: center;
+    margin: 25px auto 0;
+  }
+
+  p.design {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.6em;
+  }
+
 }
 

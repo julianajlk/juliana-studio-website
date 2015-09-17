@@ -164,9 +164,8 @@ li {
 }
 
 #social-footer {
-  display: inline;
   float: right;
-  margin-top: 34px
+  margin-top: 36px;
 }
 
 
@@ -236,6 +235,7 @@ li {
   background: #fff;
   margin-left: 7.5%;
   margin-right: 5%;
+  text-align: center;
 }
 
 .col-2 {
@@ -244,6 +244,7 @@ li {
   background: #fff;
   margin-right: 7.5%;
   margin-left: 0 auto;
+  text-align: center;
 }
 
 /* collections */
@@ -256,15 +257,15 @@ div.collection-1, div.collection-2 {
 div.collection-1  {
   background:url('images/studio-background-repeat-caju.jpg') repeat;
   background-size: 70%;
-  width: 490px;
-  height: 490px;
+  width: 510px;
+  height: 510px;
 }
 
 div.collection-2 {
   background:url('images/studio-background-repeat-caju-leaf.jpg') repeat;
   background-size: 70%;
-  width: 490px;
-  height: 490px;
+  width: 510px;
+  height: 510px;
 }
 
 .title-background {
@@ -422,10 +423,16 @@ div.featured-3-b {
   float: right;
 }
 
+.footer-top img {
+  display: block;
+  float: left;
+}
 
-
-
-
+#details {
+  display: block;
+  float: left;
+  margin-top: 39px;
+}
 
 
 /*
