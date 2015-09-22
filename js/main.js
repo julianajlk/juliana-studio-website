@@ -1,6 +1,6 @@
-$(window).on('load', function(){
+$(window).on('load', function() {
 
-  $('.featured-items').masonry({
+  $('.featured-items').masonry( {
     // options
     itemSelector: '.item'
   });
@@ -50,6 +50,7 @@ $(function() {
          $('nav').removeClass('fixed');
        }
     });
+
 
 });
 
