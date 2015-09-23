@@ -6,6 +6,18 @@
   position: static;
 }
 
+/*//-->header//*/
+/*@media only screen and (max-width: 700px){
+
+  #background {
+    background-size: 119%;
+  }
+
+  #background-overlay {
+    background-size: 68%;
+  }
+}*/
+
 /*//-->navbar menu mobile//*/
 @media only screen and (max-width: 900px) {
 
@@ -102,6 +114,15 @@
     width: 90%;
     margin: 2%;
   }
+
+  .title-box {
+  background-color: #fff;
+  left: 38%;
+  top: 37%;
+  position: absolute;
+  width: 150px;
+  height: 65px;
+}
 }
 
 /*//-->collections//*/

@@ -268,19 +268,19 @@ div.collection-2 {
   height: 510px;
 }
 
-.title-background {
+/*.title-background {
   display: table;
   width: 43.75%;
   height: 21.875%;
   background: #fff;
   margin: 0 auto;
-}
+}*/
 
-.title {
+/*.title {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-}
+}*/
 
 /*///ABOUT - CREATIVE//*/
 
@@ -368,6 +368,13 @@ div.collection-2 {
   vertical-align: middle;
 }
 
+.title h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #000;
+}
+
 #title a:link, #title a:visited {
   color: #000;
   text-decoration: none;
@@ -389,14 +396,19 @@ div.collection-2 {
   margin: 2%;
 }
 
-.title h5 {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+.title-box {
+  background-color: #fff;
+  left: 28%;
+  top: 42%;
+  position: absolute;
+  width: 150px;
+  height: 65px;
 }
+
 
 div.featured-1-a  {
   background:url('../images/studio-background-repeat-monstera.jpg') repeat;
-  background-size: contain;
+  background-size: 90%;
   padding-top: 28.45%;
   display: table-cell;
   vertical-align: middle;
@@ -517,8 +529,74 @@ div.featured-3-b {
 }
 
 
+/*///ABOUT ---PAGE///*/
+.borders {
+  border-left-color: #000;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-color: #000;
+  border-right-style: solid;
+  border-right-width: 2px;
+}
 
-/*///CONTACT PAGE///*/
+.about-page {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 50px;
+}
+
+h2.borders {
+  height: 17px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  position: relative;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.83em 0;
+}
+
+.about-page p.about-caption {
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  padding: 0 100px;
+  font-weight: 300;
+}
+
+.about-page p {
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  padding: 0 100px;
+  font-weight: 300;
+}
+
+
+/*///FEATURED ---PAGE///*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.featured-row-1 {
+  margin-bottom: 50px;
+}
+
+.featured-row-1 {
+  margin-bottom: 50px;
+}
+
+
+/*///CONTACT ---PAGE///*/
 
 .contact h1 {
   font-size: 2em;
