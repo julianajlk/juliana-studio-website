@@ -537,6 +537,7 @@ div.featured-3-b {
   border-right-color: #000;
   border-right-style: solid;
   border-right-width: 2px;
+  padding: 0 10px;
 }
 
 .about-page {
@@ -559,16 +560,16 @@ h2.borders {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  margin: 0.83em 0;
 }
 
 .about-page p.about-caption {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   line-height: 1.2em;
   letter-spacing: 0.02em;
   padding: 0 100px;
   font-weight: 300;
+  margin-top: 20px;
 }
 
 .about-page p {
@@ -591,7 +592,7 @@ h2 {
   margin-bottom: 50px;
 }
 
-.featured-row-1 {
+.featured-row-2 {
   margin-bottom: 50px;
 }
 
@@ -608,6 +609,7 @@ h2 {
 }
 
 .contact h2 {
+  margin-top: 0;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.15em;
