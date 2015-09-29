@@ -23,7 +23,7 @@
 
 <div class="foreground">
   <section id="screen1">
-    <nav class="navbar">
+    <nav class="navbar fixed-pages">
       <div class="nav-1">
         <a href="main.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a>
       </div>
@@ -49,9 +49,17 @@
 
  <div class="contact">
     <h1>Contato</h1>
-    <div class="col-1 contact">
+    <div class="col-1 contact-content">
+
+      <?php if ($_GET['s'] == 'success') { ?>
+        <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
+      <?php } else if ($_GET['s'] == 'error') { ?>
+        <p>Erro. Sua mensagem não foi enviada! Make sure you type in the proper verification numbers. <a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amarestudio.com.br)</p>
+      <?php } else { ?>
+
+
     <!-- Contact Form -->
-      <form>
+      <form action="mailer.php" method="post">
         <div class="form-group">
           <label for="exampleInputName1">Nome</label>
           <input type="name" class="form-control" id="exampleInputName1" placeholder="Nome">
@@ -71,17 +79,24 @@
         <div class="form-group contact-text">
           <p>Mensagem:</p>
           <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <div>
+          <input type="text" name="verify" class="verify-box form-control" placeholder="Verify you're human">
+          <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
+          
           <button type="submit" class="btn btn-default">Enviar</button>
         </div>
       </form>
+
+      <?php } ?>
   </div>
 
-  <div class="contact col-2 clearfix">
+  <div class="col-2 contact-content clearfix">
     <!-- Contact Info -->
     <h2>Fale conosco</h2>
       <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
           <p class="email">
-            <i class="fa fa-envelope-o"></i><a href="mailto:contato@amarestudio.com.br">contato@amarestudio.com.br</a><br>
+            <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">contato@amarestudio.com.br</a><br>
           </p>
           <br>
           <h3>Urgente? Ligue para:</h3>
@@ -89,7 +104,7 @@
           <br>
           <h3>Trabalhe conosco:</h3>
           <p class="email">
-            <i class="fa fa-envelope-o"></i><a href="mailto:contato@amarestudio.com.br">jobs@amarestudio.com.br</a><br>
+            <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">jobs@amarestudio.com.br</a><br>
           </p>
 </div>
 
