@@ -286,9 +286,9 @@ div.collection-2 {
 }
 
 .title {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 a.title-background {
@@ -379,9 +379,7 @@ a.title-background {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  align-items: center;
-  vertical-align: middle;
+  min-height: 800px;
 }
 
 .title h5 {
@@ -408,15 +406,15 @@ a.title-background {
 
 .item {
   width: 27.3333%;
-  float: left;
+  /*float: left;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 2%;
 }
 
 .title-box {
   background-color: #fff;
-  left: 28%;
-  top: 42%;
-  position: absolute;
   width: 150px;
   height: 65px;
 }
@@ -425,43 +423,37 @@ a.title-background {
 div.featured-1-a  {
   background:url('../images/studio-background-repeat-monstera.jpg') repeat;
   background-size: 90%;
-  padding-top: 28.45%;
-  display: table-cell;
-  vertical-align: middle;
+  height: 37%;
 }
 
 div.featured-1-b {
   background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  padding-top: 37.5%;
+  height: 46.5%;
 }
 
 div.featured-2-a {
   background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  padding-top: 37.5%;
-  display: table-cell;
-  vertical-align: middle;
+  height: 46.5%;
 }
 
 div.featured-2-b  {
   background:url('../images/studio-background-repeat-monstera.jpg') repeat;
   background-size: 90%;
-  padding-top: 28.45%;
+  height: 37%;
 }
 
 div.featured-3-a  {
   background:url('../images/studio-background-repeat-monstera.jpg') repeat;
   background-size: 90%;
-  padding-top: 28.45%;
-  display: table-cell;
-  vertical-align: middle;
+  height: 37%;
 }
 
 div.featured-3-b {
   background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
   background-size: 80%;
-  padding-top: 37.5%;
+  height: 46.5%;
 }
 
 

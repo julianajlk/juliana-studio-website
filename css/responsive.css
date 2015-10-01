@@ -113,20 +113,14 @@
 /*//-->featured items //*/
 @media only screen and (max-width: 700px){
   .item {
-    display: block;
-    float: none;
     width: 90%;
-    margin: 2%;
+    min-height: 300px;
+    margin: 5% 0 5% 4%;
   }
 
-  .title-box {
-  background-color: #fff;
-  left: 38%;
-  top: 37%;
-  position: absolute;
-  width: 150px;
-  height: 65px;
-}
+  .featured-items {
+    height: auto;
+  }
 }
 
 /*//-->collections//*/

@@ -1,8 +1,29 @@
 $(window).on('load', function() {
 
-  $('.featured-items').masonry( {
-    // options
-    itemSelector: '.item'
+  var $grid = $('.featured-items');
+
+  if ($(window).width() > 701) {
+    $grid.masonry( {
+      // options
+      itemSelector: '.item'
+    });
+  }
+
+  $(window).resize(function() {
+    if ($(window).width() <= 700) {
+      // disable masonry
+      $grid.masonry('destroy');
+    }
+  });
+
+  $(window).resize(function() {
+    if ($(window).width() > 701) {
+      //reactivate masonry
+      $grid.masonry( {
+        // options
+        itemSelector: '.item'
+      });
+    }
   });
 
 });
@@ -50,7 +71,6 @@ $(function() {
          $('nav').removeClass('fixed');
        }
     });
-
 
 });
 
