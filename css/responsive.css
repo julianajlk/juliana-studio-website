@@ -28,13 +28,14 @@
 
   .navbar a.menu-icon {
     text-align: right;
-    font-size: 1em;
+    display: table-cell;
+    /*font-size: 1em;
     display: table-cell;
     vertical-align: middle;
-    width: auto;
+    width: auto;*/
   }
 
-  .nav-2 {
+  #menu-links {
     display: none;
     background: #c0c0c0;
     clear: both;
@@ -47,12 +48,12 @@
     z-index: 4;
   }
 
-  .navbar .nav-2 a.menu-close {
+  .navbar a.menu-close {
     text-align: right;
     margin-right: 20px;
   }
 
-  .navbar .nav-2 a {
+  .navbar #menu-links a {
     display: block;
     margin-top: 20px;
     color: black;
@@ -61,11 +62,11 @@
     clear: both;
   }
 
-  .nav-1 .logo-menu {
+  .logo-menu {
     float: none;
   }
 
-  .nav-3 .menu-icon {
+  .menu-icon {
     float: right;
   }
 
@@ -75,7 +76,14 @@
   }
 
   #social a {
-    margin-right: 0;
+    float: none;
+    display: inline;
+    margin-top: 0;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    clear: both;
+   
   }
 
 }

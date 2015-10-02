@@ -11,10 +11,10 @@ $(window).on('load', function() {
 $(function() {
   // mobile-menu
   $('a.menu-icon').click(function() {
-    $('.nav-2').slideToggle();
+    $('#menu-links').slideToggle();
     $('body').css({'overflow':'hidden'});
     $('#social').show();
-    $('.nav-3').css({
+    $('#social').css({
       'display': 'block',
       'position': 'absolute',
       'width': '100%',
@@ -24,20 +24,20 @@ $(function() {
   });
 
   $('.menu-close').click(function(){
-    $('.nav-2').hide();
+    $('#menu-links').hide();
     $('body').removeAttr('style');
     $('#social').removeAttr('style');
-    $('.nav-3').removeAttr('style');
+    $('#social').removeAttr('style');
   });
 
   // fix hidden links on window resize
 
   $(window).resize(function() {
     if ($(window).width() > 900) {
-      $('.nav-2').removeAttr('style');
+      $('#menu-links').removeAttr('style');
       $('body').removeAttr('style');
       $('#social').removeAttr('style');
-      $('.nav-3').removeAttr('style');
+      $('#social').removeAttr('style');
     }
   });
 

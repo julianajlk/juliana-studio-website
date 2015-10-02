@@ -96,7 +96,7 @@ header {
 .logo-menu {
   width: 1.8em;
   display: inline;
-  float: right;
+  float: left;
 }
 
 .footer-top img {
@@ -188,7 +188,7 @@ li {
     background: #e6e7e6;
 }
 
-.nav-1 {
+/*.nav-1 {
     display: table-cell;
     vertical-align: middle;
     width: 14%;
@@ -209,6 +209,15 @@ li {
     vertical-align: middle;
     width: 16%;
     margin-left: 0px;
+}
+*/
+
+#menu-links {
+  text-align: center;
+}
+
+#social a {
+  float: right;
 }
 
 
