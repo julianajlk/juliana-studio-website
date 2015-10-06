@@ -7,16 +7,14 @@
 }
 
 /*//-->header//*/
-/*@media only screen and (max-width: 700px){
-
+@media only screen and (max-width: 700px){
   #background {
-    background-size: 119%;
+    background-size: 854px;
   }
-
   #background-overlay {
-    background-size: 68%;
+    background-size: 461px;
   }
-}*/
+}
 
 /*//-->navbar menu mobile//*/
 @media only screen and (max-width: 900px) {
@@ -70,9 +68,14 @@
     float: right;
   }
 
-  .foreground { 
+  .foreground {  /*//fix!!!!!!!//*/
     position: absolute; 
     top: 380px; 
+  }
+
+  .foreground-feat { 
+    position: absolute; 
+    top: 0px; 
   }
 
   #social a {
@@ -83,7 +86,6 @@
     text-decoration: none;
     text-align: center;
     clear: both;
-   
   }
 
 }
@@ -96,25 +98,12 @@
   }
 }
 
-@media only screen and (max-width: 468px) {
-  .main-logo {
-    width: 100px;
-  }
-}
-
 
 /*//-->about//*/
-@media only screen and (max-width: 650px) {
-  #about {
-    height: 200px;
-    width: 100%;
-    padding: 35px;
-}
-  #about h1 {
-    font-size: 2em;
-  }
+@media only screen and (max-width: 600px) {
   #about p {
-    font-size: 0.9em;
+  padding: 0 20px;
+  line-height: 1.6em;
   }
 }
 
@@ -152,7 +141,7 @@
 
 @media only screen and (max-width: 970px) {
   .col-1, .col-2 {
-    width: 100%;
+    width: 90%; /*/fixes contact page form width below 970px into one column/*/
     float: none;
     margin: 0 auto;
   }
@@ -161,6 +150,26 @@
     padding-bottom: 60px;
   }
 }
+
+@media only screen and (max-width: 490px) { 
+   div.collection-1, div.collection-2 {
+    width: 360px;
+    height: 360px;
+    float: none;
+    margin: 0 auto;
+  }
+ 
+  }
+}
+
+
+/*//-->tagline//*/
+@media only screen and (max-width: 485px) {
+  #tagline {   
+  height: 285px;   /*//fix!!!! not reading//*/
+  }
+}
+
 
 /*//-->footer//*/
 @media only screen and (max-width: 900px) {
@@ -206,5 +215,41 @@
     font-size: 0.6em;
   }
 
+}
+
+
+/*//ABOUT -->PAGE//*/ 
+
+@media only screen and (max-width: 600px) {
+  .about-page p.about-caption {
+    padding: 50px 100px 20px;
+  } 
+}
+
+@media only screen and (max-width: 430px) {
+  .about-page p.about-caption {
+    font-size: 1.2em;
+    padding: 20px 50px 10px;
+  } 
+}
+
+
+/*//FEATURED -->PAGE//*/ 
+
+@media only screen and (max-width: 970px) {
+  .foreground-feat {
+    width: 100%  
+  }
+}
+/*fixes weird left margin added to all of website*/ 
+
+
+/*//CONTACT -->PAGE//*/ 
+
+@media only screen and (max-width: 970px) {
+  div.contact-2 {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
 }
 

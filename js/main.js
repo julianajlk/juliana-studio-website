@@ -74,6 +74,22 @@ $(function() {
 
 });
 
+//to have white title box as a hover on background image
+$('.title-hover').hide();
+
+$('.collection-1').hover(function(){    
+  $(this).find('.title-hover').fadeTo(600, 1);
+}, function() {
+$(this).find('.title-hover').fadeTo(400,0);
+});
+
+$('.title-hover').hide();
+
+$('.collection-2').hover(function(){    
+  $(this).find('.title-hover').fadeTo(600, 1);
+}, function() {
+$(this).find('.title-hover').fadeTo(400,0);
+});
 
 
 

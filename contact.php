@@ -21,20 +21,19 @@
     </div>
   </header>  -->
 
-<div class="foreground">
   <section id="screen1">
-    <nav class="navbar fixed-pages">
+    <nav class="navbar">
       <div class="nav-1">
         <a href="index.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a>
       </div>
       <div class="nav-2">
         <a class="menu-close"><i class="fa fa-times"></i></a>
         <ul id="menu-links">
-          <li><a href="about.html">Sobre</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="criacao.html">Criação</a></li>
-          <li><a href="collection.html">Coleção</a></li>
+          <li><a href="featured.html">Featured</a></li>
           <li><a href="servicos.html">Serviços</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <div class="nav-3">
@@ -45,7 +44,7 @@
         <a class="menu-icon"><i class="fa fa-bars"></i></a>
       </div>
     </nav>
-  </section>
+  </section> 
 
  <div class="contact">
     <h1>Contato</h1>
@@ -59,7 +58,7 @@
 
 
     <!-- Contact Form -->
-      <form action="mailer.php" method="post">
+      <form class="contact-1" action="mailer.php" method="post">
         <div class="form-group">
           <label for="exampleInputName1">Nome</label>
           <input type="name" class="form-control" id="exampleInputName1" placeholder="Nome">
@@ -77,10 +76,10 @@
           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
         </div>
         <div class="form-group contact-text">
-          <p>Mensagem:</p>
+          <p>Mensagem</p>
           <textarea class="form-control" rows="3"></textarea>
         </div>
-        <div>
+        <div class="form-verification">
           <input type="text" name="verify" class="verify-box form-control" placeholder="Verify you're human">
           <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
           
@@ -93,21 +92,23 @@
 
   <div class="col-2 contact-content clearfix">
     <!-- Contact Info -->
-    <h2>Fale conosco</h2>
-      <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
-          <p class="email">
-            <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">contato@amarestudio.com.br</a><br>
-          </p>
-          <br>
-          <h3>Urgente? Ligue para:</h3>
-          <p><i class="fa fa-phone"></i> 85 3222 1234</p>
-          <br>
-          <h3>Trabalhe conosco:</h3>
-          <p class="email">
-            <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">jobs@amarestudio.com.br</a><br>
-          </p>
+    <div class="contact-2">
+      <h2>Fale conosco</h2>
+        <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
+            <p class="email">
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">contato@amarestudio.com.br</a><br>
+            </p>
+            <br>
+            <h3>Urgente? Ligue para:</h3>
+            <p><i class="fa fa-phone"></i> 85 3222 1234</p>
+            <br>
+            <h3>Trabalhe conosco:</h3>
+            <p class="email">
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">jobs@amarestudio.com.br</a><br>
+            </p>
+    </div>
 </div>
-
+</div> <!-- .container -->
 
 <!-- <form>
   <div id="contact_fields">
@@ -131,6 +132,7 @@
     <h4 style="display:none;">Thank you for your inquiry. We will be in touch!</h4>
   </div>
 </form> -->
+
 
 
 <section class="home-page" id="tagline">
@@ -161,9 +163,8 @@
       <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados.</p>
       <p class="design">Design & Desenvolvimento por <a href="http://www.girletc.com.br/studio">Girl Etc</a></p>
     </div><!-- .footer-bottom -->
-  </div> <!-- .container -->
 </footer>
-</div><!-- .foreground -->
+
 
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

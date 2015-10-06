@@ -188,7 +188,7 @@ li {
     background: #e6e7e6;
 }
 
-/*.nav-1 {
+.nav-1 {
     display: table-cell;
     vertical-align: middle;
     width: 14%;
@@ -210,7 +210,7 @@ li {
     width: 16%;
     margin-left: 0px;
 }
-*/
+
 
 #menu-links {
   text-align: center;
@@ -270,6 +270,7 @@ li {
 div.collection-1, div.collection-2 {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 div.collection-1  {
@@ -286,25 +287,15 @@ div.collection-2 {
   height: 510px;
 }
 
-.title-background {  
-  display: table;
-  width: 43.75%;
-  height: 21.875%;
-  background: #fff;
-  margin: 0 auto;
-}
-
-.title {
+.title-hover {
   display: flex;
   align-items: center;
-  justify-content: center;
+  background: #fff;
+  padding: 80px;
+  text-decoration: none;
 }
 
-a.title-background {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-}
+
 
 
 /*///ABOUT - CREATIVE//*/
@@ -374,15 +365,6 @@ a.title-background {
   padding: 15px 0px 75px;
 }
 
-/*#featured h3 {
-  text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  line-height: 4em;
-  background: #fff;
-}*/
-
 .featured-items {
   padding: 3%;
   display: block;
@@ -391,26 +373,30 @@ a.title-background {
   min-height: 800px;
 }
 
-.title h5 {
+.title a {
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-decoration: none;
   color: #000;
 }
 
-#title a:link, #title a:visited {
+.title a:link, .title a:visited {
   color: #000;
   text-decoration: none;
+  text-align: center;
 }
 
-#title a:hover {
+.title a:hover {
   color: #fff;
   text-decoration: none;
+  text-align: center;
 }
 
-#title a:active {
+.title a:active {
   color: #c0c0c0;
   text-decoration: none;
+  text-align: center;
 }
 
 .item {
@@ -428,6 +414,9 @@ a.title-background {
   height: 65px;
 }
 
+.title-box:hover {
+  background-color: #e6e7e6;
+}
 
 div.featured-1-a  {
   background:url('../images/studio-background-repeat-monstera.jpg') repeat;
@@ -547,7 +536,7 @@ div.featured-3-b {
 }
 
 
-/*///ABOUT ---PAGE///*/ /*----->fix responsive*/
+/*///ABOUT ---PAGE///*/
 
 
 .borders {
@@ -564,8 +553,8 @@ div.featured-3-b {
   background-color: #fff;
   width: 100%;
   margin: 0;
-  padding-top: 120px;
-  height: 700px;
+  padding-top: 10px;
+  padding-bottom: 80px;
 }
 
 h2.borders {
@@ -588,7 +577,7 @@ h2.borders {
   text-align: center;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  padding: 0 100px;
+  padding: 50px 150px 20px;
   font-weight: 300;
   margin-top: 20px;
 }
@@ -603,8 +592,12 @@ h2.borders {
 
 
 
-/*///FEATURED ---PAGE///*/ /*--------->fix responsive*/
+/*///FEATURED ---PAGE///*/ 
 
+.foreground-feat {
+  position: relative;
+  z-index: 3;
+}
 
 section h2 {
   text-align: center;
@@ -687,9 +680,6 @@ div.more-featured {
   text-decoration: underline;
 }
 
-.contact p {
-  letter-spacing: 0.1em;
-}
 
 /*contact.css for php alert*/
 input.error, textarea.error {
@@ -701,10 +691,26 @@ span.error {
   color: red;
 }
 
+/*form-verification design*/
 input.verify-box {
   width: 35%;
-  margin-top: 40px;
+  float: left;
 }
+
+.form-verification {
+  margin-top: 25px;
+}
+
+.verify-img {
+  float: left;
+  margin-left: 2%;
+}
+
+button.btn {
+  float: right;
+  margin: 0;
+}
+
 
 
 /*contact form bootstrap*/
