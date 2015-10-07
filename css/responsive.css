@@ -90,36 +90,6 @@
 
 }
 
-
-/*//-->main-logo//*/
-@media only screen and (max-width: 900px) {
-  .main-logo {
-    width: 160px;
-  }
-}
-
-
-/*//-->about//*/
-@media only screen and (max-width: 600px) {
-  #about p {
-  padding: 0 20px;
-  line-height: 1.6em;
-  }
-}
-
-/*//-->featured items //*/
-@media only screen and (max-width: 700px){
-  .item {
-    width: 90%;
-    min-height: 300px;
-    margin: 5% 0 5% 4%;
-  }
-
-  .featured-items {
-    height: auto;
-  }
-}
-
 /*//-->collections//*/
 @media only screen and (max-width: 1150px) {
   div.collection-1, div.collection-2 {
@@ -151,32 +121,21 @@
   }
 }
 
-@media only screen and (max-width: 490px) { 
-   div.collection-1, div.collection-2 {
-    width: 360px;
-    height: 360px;
-    float: none;
-    margin: 0 auto;
-  }
- 
-  }
-}
-
-
-/*//-->tagline//*/
-@media only screen and (max-width: 485px) {
-  #tagline {   
-  height: 285px;   /*//fix!!!! not reading//*/
-  }
-}
-
-
-/*//-->footer//*/
+/*//--> main-logo & footer//*/
 @media only screen and (max-width: 900px) {
+  
+  .main-logo {
+    width: 160px;
+  }
+
   .footer-top img {
     width: 75px;
     float: none;
     margin: 10px auto 22px;
+  }
+
+  #logo img {
+    margin: 16% auto;
   }
 
   #details {
@@ -217,39 +176,54 @@
 
 }
 
-
-/*//ABOUT -->PAGE//*/ 
-
-@media only screen and (max-width: 600px) {
-  .about-page p.about-caption {
-    padding: 50px 100px 20px;
-  } 
-}
-
-@media only screen and (max-width: 430px) {
-  .about-page p.about-caption {
-    font-size: 1.2em;
-    padding: 20px 50px 10px;
-  } 
-}
-
-
-/*//FEATURED -->PAGE//*/ 
-
-@media only screen and (max-width: 970px) {
-  .foreground-feat {
-    width: 100%  
-  }
-}
-/*fixes weird left margin added to all of website*/ 
-
-
-/*//CONTACT -->PAGE//*/ 
-
-@media only screen and (max-width: 970px) {
-  div.contact-2 {
-    padding: 40px;
-    margin-bottom: 50px;
+@media only screen and (max-width: 800px){
+  #logo img {
+    margin: 18% auto;
   }
 }
 
+/*//-->featured items //*/
+@media only screen and (max-width: 700px){
+  .item {
+    width: 90%;
+    min-height: 300px;
+    margin: 5% 0 5% 4%;
+  }
+
+  .featured-items {
+    height: auto;
+  }
+
+  #logo img {
+    margin: 21% auto;
+  }
+}
+
+/*//-->about//*/
+@media only screen and (max-width: 650px) {
+  #about {
+    height: 200px;
+    width: 100%;
+    padding: 35px;
+  }
+  #about h1 {
+    font-size: 2em;
+  }
+  #about p {
+    font-size: 0.9em;
+  }
+
+  #logo img {
+    margin: 23% auto;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .main-logo {
+    width: 100px;
+  }
+
+  #logo img {
+    margin: 33% auto;
+  }
+}
