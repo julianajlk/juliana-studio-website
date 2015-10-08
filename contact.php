@@ -22,7 +22,7 @@
   </header>  -->
 
   <section id="screen1">
-    <nav class="navbar">
+    <nav class="navbar navbar-other">
       <div class="nav-1">
         <a href="index.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a>
       </div>

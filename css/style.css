@@ -292,6 +292,9 @@ div.collection-2 {
   align-items: center;
   background: #fff;
   padding: 80px;
+}
+
+.title-hover i {
   text-decoration: none;
 }
 
@@ -357,6 +360,10 @@ div.collection-2 {
   letter-spacing: 0.02em;
 }*/
 
+
+
+
+
 /*///FEATURED///*/
 
 #featured {
@@ -387,14 +394,9 @@ div.collection-2 {
   text-align: center;
 }
 
-.title a:hover {
+.title-box:hover {
+  background-color: #e6e7e6;
   color: #fff;
-  text-decoration: none;
-  text-align: center;
-}
-
-.title a:active {
-  color: #c0c0c0;
   text-decoration: none;
   text-align: center;
 }
@@ -412,10 +414,6 @@ div.collection-2 {
   background-color: #fff;
   width: 150px;
   height: 65px;
-}
-
-.title-box:hover {
-  background-color: #e6e7e6;
 }
 
 div.featured-1-a  {
@@ -593,6 +591,13 @@ h2.borders {
 
 
 /*///FEATURED ---PAGE///*/ 
+
+.navbar-other {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
 
 .foreground-feat {
   position: relative;

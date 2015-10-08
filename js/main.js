@@ -65,13 +65,12 @@ $(function() {
   $(window).bind('scroll', function() {
      var navHeight = $( window ).height() - 70;
        if ($(window).scrollTop() > navHeight) {
-         $('nav').addClass('fixed');
+         $('.navbar').addClass('fixed');
        }
        else {
-         $('nav').removeClass('fixed');
+         $('.navbar').removeClass('fixed');
        }
     });
-
 });
 
 //to have white title box as a hover on background image
