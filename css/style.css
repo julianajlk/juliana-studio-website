@@ -605,23 +605,281 @@ h2.borders {
   z-index: 3;
 }
 
-section h2 {
+#featured-header h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
   padding-top: 50px;
+  padding-bottom: 0px;
 }
 
 .featured-row-1 {
+  margin-top: 30px;
   margin-bottom: 50px;
+}
+
+div.featured-tropical-1  {
+  background:url('../images/samples/Tropical-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-tropical-2 {
+  background:url('../images/samples/Tropical-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-1  {
+  background:url('../images/samples/FLORAL-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-2 {
+  background:url('../images/samples/FLORAL-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-1  {
+  background:url('../images/samples/AnimalPrint-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-2 {
+  background:url('../images/samples/AnimalPrint-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-1  {
+  background:url('../images/samples/GEOMETRICO-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-2 {
+  background:url('../images/samples/GEOMETRICO-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-1  {
+  background:url('../images/samples/ETNICO-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-2 {
+  background:url('../images/samples/ETNICO-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-1  {
+  background:url('../images/samples/Variados-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-2 {
+  background:url('../images/samples/Variados-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
 }
 
 .featured-row-2 {
   margin-bottom: 50px;
 }
 
+div.featured-tropical-3  {
+  background:url('../images/samples/Tropical-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-tropical-4 {
+  background:url('../images/samples/Tropical-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-3  {
+  background:url('../images/samples/FLORAL-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-4 {
+  background:url('../images/samples/FLORAL-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-3  {
+  background:url('../images/samples/AnimalPrint-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-4 {
+  background:url('../images/samples/AnimalPrint-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-3  {
+  background:url('../images/samples/GEOMETRICO-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-4 {
+  background:url('../images/samples/GEOMETRICO-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-3  {
+  background:url('../images/samples/ETNICO-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-4 {
+  background:url('../images/samples/ETNICO-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-3  {
+  background:url('../images/samples/Variados-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-4 {
+  background:url('../images/samples/Variados-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
 .featured-row-3 {
   margin-bottom: 50px;
+}
+
+div.featured-tropical-5  {
+  background:url('../images/samples/Tropical-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-tropical-6 {
+  background:url('../images/samples/Tropical-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-5  {
+  background:url('../images/samples/FLORAL-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-floral-6 {
+  background:url('../images/samples/FLORAL-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-5  {
+  background:url('../images/samples/AnimalPrint-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-animalprint-6 {
+  background:url('../images/samples/AnimalPrint-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-5  {
+  background:url('../images/samples/GEOMETRICO-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-geo-6 {
+  background:url('../images/samples/GEOMETRICO-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-5  {
+  background:url('../images/samples/ETNICO-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-etnico-6 {
+  background:url('../images/samples/ETNICO-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-5  {
+  background:url('../images/samples/Variados-05.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-misc-6 {
+  background:url('../images/samples/Variados-06.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+.more-featured {
+  padding: 0 0 50px;
 }
 
 .more-featured h3 {
@@ -632,13 +890,13 @@ div.more-featured {
   text-align: center;
 }
 
-.more-featured a{
+.more-featured a {
   text-decoration: none;
   color: #000;
 }
 
 .more-featured a:hover {
-  color
+  color: #Ffd3ca;
 }
 
 

@@ -30,7 +30,7 @@
         <a class="menu-close"><i class="fa fa-times"></i></a>
         <ul id="menu-links">
           <li><a href="about.html">About</a></li>
-          <li><a href="criacao.html">Criação</a></li>
+          <li><a href="featured-tropical.html">Featured 2</a></li>
           <li><a href="featured.html">Featured</a></li>
           <li><a href="servicos.html">Serviços</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -53,7 +53,7 @@
       <?php if ($_GET['s'] == 'success') { ?>
         <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
       <?php } else if ($_GET['s'] == 'error') { ?>
-        <p>Erro. Sua mensagem não foi enviada! Make sure you type in the proper verification numbers. <a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amarestudio.com.br)</p>
+        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amarestudio.com.br)</p>
       <?php } else { ?>
 
 
@@ -80,7 +80,7 @@
           <textarea class="form-control" rows="3"></textarea>
         </div>
         <div class="form-verification">
-          <input type="text" name="verify" class="verify-box form-control" placeholder="Verify you're human">
+          <input type="text" name="verify" class="verify-box form-control" placeholder="Digite o código ao lado">
           <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
           
           <button type="submit" class="btn btn-default">Enviar</button>
