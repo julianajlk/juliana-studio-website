@@ -32,7 +32,7 @@
           <li><a href="about.html">About</a></li>
           <li><a href="featured-tropical.html">Featured 2</a></li>
           <li><a href="featured.html">Featured</a></li>
-          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="services.html">Serviços</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>

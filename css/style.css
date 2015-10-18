@@ -555,12 +555,12 @@ div.featured-3-b {
   padding-bottom: 80px;
 }
 
-h2.borders {
+.about-page h2 {
   height: 17px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   position: relative;
   font-size: 1.3em;
   letter-spacing: 0.05em;
@@ -900,6 +900,61 @@ div.more-featured {
 }
 
 
+
+/*///SERVICES ---PAGE///*/ 
+.services {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.services h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  letter-spacing: 0.15em;
+  line-height: 1.5em;
+}
+.services-types {
+  padding-top: 20px;
+}
+
+.services p {
+  text-align: center;
+}
+
+.services-description {
+  width: 60%;
+  display: block;
+  float: left;
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  padding: 20px 60px 20px 150px;
+  font-weight: 300;
+}
+
+.services-list {
+  width: 20%;
+  display: block;
+  float: left;
+  border-left: 1px solid #c0c0c0;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  padding: 20px 0px 20px 45px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+services-list li {
+
+}
 
 /*///CONTACT ---PAGE///*/
 
