@@ -551,7 +551,7 @@ div.featured-3-b {
   background-color: #fff;
   width: 100%;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -584,7 +584,7 @@ h2.borders {
   text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-  padding: 0 100px;
+  padding: 0 120px;
   font-weight: 300;
 }
 
@@ -598,6 +598,7 @@ h2.borders {
   height: 70px;
   z-index: 1;
 }
+
 
 .foreground-feat {
   position: relative;

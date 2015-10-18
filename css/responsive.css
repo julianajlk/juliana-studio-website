@@ -116,8 +116,17 @@
     margin: 0 auto;
   }
 
-  .col-1 {
-    padding-bottom: 60px;
+  .contact-2 {
+    padding: 50px 0 50px; /*/fix not working!!!/*/
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.collection-1, div.collection-2 {
+    width: 350px;
+    height: 350px;
+    float: none;
+    margin: 0 auto;
   }
 }
 
@@ -202,7 +211,6 @@
 /*//-->about//*/
 @media only screen and (max-width: 650px) {
   #about {
-    height: 200px;
     width: 100%;
     padding: 35px;
   }
@@ -218,6 +226,25 @@
   }
 }
 
+@media only screen and (max-width: 610px) {
+  .about-page p.about-caption {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .about-page p {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #about p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 @media only screen and (max-width: 468px) {
   .main-logo {
     width: 100px;
@@ -225,5 +252,12 @@
 
   #logo img {
     margin: 33% auto;
+  }
+}
+
+/*//-->tagline//*/
+@media only screen and (max-width: 481px) {
+  #tagline {
+    height: 285px;
   }
 }
