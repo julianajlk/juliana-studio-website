@@ -380,7 +380,7 @@ div.collection-2 {
   min-height: 800px;
 }
 
-.title a {
+.title h5 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -388,15 +388,19 @@ div.collection-2 {
   color: #000;
 }
 
-.title a:link, .title a:visited {
+.title a:link {
   color: #000;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 .title-box:hover {
   background-color: #e6e7e6;
-  color: #fff;
   text-decoration: none;
   text-align: center;
 }
