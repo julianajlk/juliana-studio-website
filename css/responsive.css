@@ -6,6 +6,11 @@
   position: static;
 }
 
+/*//-->desktop//*/
+@media only screen and (min-width : 1277px) {
+}
+
+
 /*//-->header//*/
 @media only screen and (max-width: 700px){
   #background {
