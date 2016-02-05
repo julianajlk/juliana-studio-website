@@ -226,13 +226,14 @@
   }
 }
 
-/*//-->about//*/
-@media only screen and (max-width: 1280px) {
-  #about {
-    width: 100%;
-    padding: 200px;
+/*//-->featured pages //*/
+@media only screen and (max-width: 1280px){
+  div.col-1 {
+    float: left;
   }
 }
+
+/*//-->about//*/
 
 @media only screen and (max-width: 650px) {
   #about {
