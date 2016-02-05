@@ -96,6 +96,12 @@
 }
 
 /*//-->collections//*/
+@media only screen and (max-width: 1280px){
+  div.collection-1 {
+    float: left;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   div.collection-1, div.collection-2 {
     width: 500px;
@@ -226,15 +232,7 @@
   }
 }
 
-/*//-->featured pages //*/
-@media only screen and (max-width: 1280px){
-  div.col-1 {
-    float: left;
-  }
-}
-
 /*//-->about//*/
-
 @media only screen and (max-width: 650px) {
   #about {
     width: 100%;

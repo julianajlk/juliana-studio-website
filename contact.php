@@ -38,8 +38,8 @@
       </div>
       <div class="nav-3">
         <div id="social">
-          <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
-          <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
+          <a href="http://facebook.com/amaredesignbr"><i class="fa fa-facebook fa-fw"></i></a>
+          <a href="http://instagram.com/amaredesign"><i class="fa fa-instagram fa-fw"></i></a>
         </div>
         <a class="menu-icon"><i class="fa fa-bars"></i></a>
       </div>
@@ -53,7 +53,7 @@
       <?php if ($_GET['s'] == 'success') { ?>
         <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
       <?php } else if ($_GET['s'] == 'error') { ?>
-        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amarestudio.com.br)</p>
+        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amaredesign.com.br.br)</p>
       <?php } else { ?>
 
 
@@ -96,7 +96,7 @@
       <h2>Fale conosco</h2>
         <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">contato@amarestudio.com.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br.br">contato@amaredesign.com.br.br</a><br>
             </p>
             <br>
             <h3>Urgente? Ligue para:</h3>
@@ -104,7 +104,7 @@
             <br>
             <h3>Trabalhe conosco:</h3>
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amarestudio.com.br">jobs@amarestudio.com.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br.br">jobs@amaredesign.com.br.br</a><br>
             </p>
     </div>
 </div>
@@ -154,9 +154,9 @@
         <li><a href="contato.html">Contato</a></li>
       </ul>
       <div id="social-footer">
-        <a href="http://facebook.com/amarestudiobr"><i class="fa fa-facebook fa-fw"></i></a>
-        <a href="http://instagram.com/amarestudio"><i class="fa fa-instagram fa-fw"></i></a>
-        <a href="http://behance.net/amarestudio"><i class="fa fa-behance fa-fw"></i></a>
+        <a href="http://facebook.com/amaredesignbr"><i class="fa fa-facebook fa-fw"></i></a>
+        <a href="http://instagram.com/amaredesign"><i class="fa fa-instagram fa-fw"></i></a>
+        <a href="http://behance.net/amaredesign"><i class="fa fa-behance fa-fw"></i></a>
       </div>
     </div><!-- .footer-top -->
     <div class="footer-bottom">
