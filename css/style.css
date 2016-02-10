@@ -274,11 +274,14 @@ div.collection-1, div.collection-2 {
 }
 
 div.collection-1  {
-  background:url('../images/studio-background-repeat-abacaxi-02.png'), url('../images/studio-background-repeat-abacaxi-03.png'), repeat;
-  background-size: 70%, 30%;
+  background:url('../images/studio-background-repeat-caju-leaf.jpg'), repeat;
+  background-size: 60%;
   width: 510px;
   height: 510px;
 }
+
+/* collections print with background - background:url('../images/studio-background-repeat-abacaxi-02.png'), url('../images/studio-background-repeat-abacaxi-03.png'), repeat;
+  background-size: 70%, 30%; */
 
 div.collection-2 {
   background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
@@ -301,7 +304,7 @@ div.collection-2 {
 
 #about {
   width: 100%;
-  background: #Ffd3ca;
+  background: #F3D0C5;
   margin: 0;
   padding: 50px;
 }
@@ -382,39 +385,39 @@ div.collection-2 {
 }
 
 
-div.featured-1-a  {
-  background:url('../images/studio-background-repeat-monstera.jpg') repeat;
+div.featured-1-a  {  /*floral*/
+  background:url('../images/CategoriesIcon-02.jpg') repeat;
   background-size: 90%;
   height: 37%;
 }
 
-div.featured-1-b {
-  background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
+div.featured-1-b {  /*tropical*/
+  background:url('../images/CategoriesIcon-01.jpg') repeat;
+  background-size: 40%;
+  height: 46.5%;
+}
+
+div.featured-2-a {  /*animal print*/
+  background:url('../images/CategoriesIcon-03.jpg') repeat;
   background-size: 80%;
   height: 46.5%;
 }
 
-div.featured-2-a {
-  background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
-  background-size: 80%;
-  height: 46.5%;
-}
-
-div.featured-2-b  {
-  background:url('../images/studio-background-repeat-monstera.jpg') repeat;
-  background-size: 90%;
+div.featured-2-b  {  /*misc*/
+  background:url('../images/CategoriesIcon-06.jpg') repeat;
+  background-size: 70%;
   height: 37%;
 }
 
-div.featured-3-a  {
-  background:url('../images/studio-background-repeat-monstera.jpg') repeat;
-  background-size: 90%;
+div.featured-3-a  {  /*moda intima*/
+  background:url('../images/CategoriesIcon-04.jpg') repeat;
+  background-size: 100%;
   height: 37%;
 }
 
-div.featured-3-b {
-  background:url('../images/studio-background-repeat-monstera-2.jpg') repeat;
-  background-size: 80%;
+div.featured-3-b {  /*geo*/
+  background:url('../images/CategoriesIcon-05.jpg') repeat;
+  background-size: 60%;
   height: 46.5%;
 }
 
