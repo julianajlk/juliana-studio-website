@@ -148,9 +148,8 @@
     <div class="footer-top clearfix border-bottom">
       <img src="images/studio-logo-footer.png">
       <ul id="details">
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="colecao.html">Coleção</a></li>
-        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="services.html">Serviços</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
       <div id="social-footer">
