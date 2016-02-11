@@ -297,6 +297,13 @@ div.collection-2 {
   padding: 80px;
 }
 
+i.title-hover {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
 
 
 
@@ -304,7 +311,7 @@ div.collection-2 {
 
 #about {
   width: 100%;
-  background: #F3D0C5;
+  background: #Ffd3ca;
   margin: 0;
   padding: 50px;
 }
@@ -583,7 +590,7 @@ div.featured-3-b {  /*geo*/
 }
 
 #featured-header li.selected a {
-  color: #F3D0C5;
+  color: #Ffd3ca;
 }
 
 .featured-row-1 {
