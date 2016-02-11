@@ -574,12 +574,16 @@ div.featured-3-b {  /*geo*/
   z-index: 3;
 }
 
-#featured-header h2 {
+#featured-header h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
   padding-top: 50px;
   padding-bottom: 0px;
+}
+
+#featured-header li.selected a {
+  color: #F3D0C5;
 }
 
 .featured-row-1 {
