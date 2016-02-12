@@ -311,7 +311,7 @@ i.title-hover {
 
 #about {
   width: 100%;
-  background: #ffeae6;
+  background: #Ffd3ca;
   margin: 0;
   padding: 50px;
 }
@@ -406,13 +406,13 @@ div.featured-1-b {  /*tropical*/
 
 div.featured-2-a {  /*animal print*/
   background:url('../images/CategoriesIcon-03.jpg') repeat;
-  background-size: 80%;
+  background-size: 100%;
   height: 46.5%;
 }
 
 div.featured-2-b  {  /*misc*/
   background:url('../images/CategoriesIcon-06.jpg') repeat;
-  background-size: 70%;
+  background-size: 100%;
   height: 37%;
 }
 
@@ -424,7 +424,7 @@ div.featured-3-a  {  /*moda intima*/
 
 div.featured-3-b {  /*geo*/
   background:url('../images/CategoriesIcon-05.jpg') repeat;
-  background-size: 60%;
+  background-size: 100%;
   height: 46.5%;
 }
 

@@ -232,6 +232,34 @@
   }
 }
 
+/*//--> featured PAGE//*/
+@media only screen and (max-width: 1150px) {
+  div.featured-tropical-1, div.featured-tropical-2, div.featured-tropical-3, div.featured-tropical-4  {
+    width: 440px;
+    height: 440px;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 970px) and (max-width:1040px) {
+  div.featured-tropical-1, div.featured-tropical-2, div.featured-tropical-3, div.featured-tropical-4 {
+    width: 400px;
+    height: 400px;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  div.featured-tropical-1, div.featured-tropical-2, div.featured-tropical-3, div.featured-tropical-4 {
+    width: 350px;
+    height: 350px;
+    float: none;
+    margin: 0 auto;
+  }
+}
 
 /*//-->about//*/
 @media only screen and (max-width: 650px) {
