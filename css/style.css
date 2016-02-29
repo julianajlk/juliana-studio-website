@@ -881,6 +881,33 @@ div.more-featured {
 
 
 
+/*///PRESS ---PAGE///*/ 
+.press {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.press h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  letter-spacing: 0.15em;
+  line-height: 1.5em;
+}
+
+.press p {
+  text-align: center;
+}
+
+.press-items {
+  padding-top: 20px;
+}
+
 /*///SERVICES ---PAGE///*/ 
 .services {
   background-color: #fff;
@@ -899,15 +926,26 @@ div.more-featured {
   letter-spacing: 0.15em;
   line-height: 1.5em;
 }
-.services-types {
-  padding-top: 20px;
-}
 
 .services p {
   text-align: center;
+  padding: 30px 200px 0px;
+  line-height: 1.5em;
 }
 
-.services-description {
+.services-items h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-image-1 {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.services-description {
   width: 60%;
   display: block;
   float: left;
@@ -930,11 +968,8 @@ div.more-featured {
   padding: 20px 0px 20px 45px;
   font-weight: 300;
   text-transform: none;
-}
+}*/
 
-services-list li {
-
-}
 
 /*///CONTACT ---PAGE///*/
 
