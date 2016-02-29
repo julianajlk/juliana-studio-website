@@ -249,6 +249,25 @@
   }
 }
 
+@media only screen and (max-width: 860px) {
+  .more-featured li {
+    line-height: 2em;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .more-featured li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .more-featured li {
+    display: block;
+    padding: 0px;
+  }
 
 @media only screen and (max-width: 480px) {
   div.featured-img {
@@ -259,12 +278,13 @@
   }
 }
 
+
 /*//-->about//*/
 @media only screen and (min-width: 1366px){
   #about {
     width: 100%;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 
