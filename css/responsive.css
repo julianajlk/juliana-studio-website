@@ -96,12 +96,6 @@
 }
 
 /*//-->collections//*/
-@media only screen and (max-width: 1366px){
-  div.collection-1, div.collection-2 {
-    float: right;
-  }
-}
-
 @media only screen and (max-width: 1280px) {
   div.collection-1, div.collection-2 {
     width: 500px;
@@ -266,6 +260,13 @@
 }
 
 /*//-->about//*/
+@media only screen and (max-width: 1366px){
+  #about {
+    width: 100%;
+    padding: 150px;
+  }
+}
+
 @media only screen and (max-width: 650px) {
   #about {
     width: 100%;
@@ -309,6 +310,14 @@
 
   #logo img {
     margin: 33% auto;
+  }
+}
+
+/*//-->about PAGE//*/
+@media only screen and (max-width: 1470px){
+  .about-page {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
