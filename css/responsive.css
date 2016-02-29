@@ -348,3 +348,17 @@
     height: 285px;
   }
 }
+
+/*//-->SERVICES PAGE//*/
+@media only screen and (max-width: 800px){
+  .services p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media only screen and (max-width: 610px){
+  .services-items img {
+    width: 300px;
+  }
+}
