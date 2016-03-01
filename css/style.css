@@ -526,7 +526,6 @@ div.featured-3-b {  /*geo*/
 .about-page {
   background-color: #fff;
   width: 100%;
-  margin: 0;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -562,17 +561,6 @@ div.featured-3-b {  /*geo*/
   letter-spacing: 0.03em;
   padding: 0px 130px;
   font-weight: 300;
-}
-
-.about-image {
-  margin-left: 150px;
-  float: left;
-  padding: 20px 40px 80px 0px;
-  width: 350px;
-}
-
-.about-side {
-  margin-top: 80px;
 }
 
 
