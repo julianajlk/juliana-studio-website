@@ -560,8 +560,13 @@ div.featured-3-b {  /*geo*/
   text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-  padding: 0 120px;
+  padding: 0px 120px;
   font-weight: 300;
+}
+
+.about-image {
+  display: block;
+  margin: 40px auto;
 }
 
 
