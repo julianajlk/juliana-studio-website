@@ -549,25 +549,32 @@ div.featured-3-b {  /*geo*/
 .about-page p.about-caption {
   font-size: 1.5em;
   text-align: center;
-  line-height: 1.2em;
+  line-height: 1.4em;
   letter-spacing: 0.02em;
   padding: 50px 150px 20px;
-  font-weight: 300;
   margin-top: 20px;
+  font-weight: 300;
 }
 
 .about-page p {
   text-align: center;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-  padding: 0px 120px;
+  padding: 0px 130px;
   font-weight: 300;
 }
 
 .about-image {
-  display: block;
-  margin: 40px auto;
+  margin-left: 150px;
+  float: left;
+  padding: 20px 40px 80px 0px;
+  width: 350px;
 }
+
+.about-side {
+  margin-top: 80px;
+}
+
 
 
 
@@ -934,8 +941,10 @@ div.more-featured {
 
 .services p {
   text-align: center;
-  padding: 20px 200px 0px;
+  padding: 20px 150px 0px;
   line-height: 1.5em;
+  letter-spacing: 0.03em;
+ /* font-weight: 300;*/
 }
 
 .services-items h4 {
