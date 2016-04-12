@@ -374,8 +374,8 @@
 /*//-->SERVICES PAGE//*/
 @media only screen and (min-width: 1470px){
   .services p {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
   .services {
