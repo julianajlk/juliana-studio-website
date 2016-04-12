@@ -226,6 +226,17 @@
 }
 
 /*//--> featured PAGE//*/
+@media only screen and (min-width: 1150px) {
+  div.featured-img {
+    width: 510px;
+    height: 510px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media only screen and (max-width: 1150px) {
   div.featured-img {
     width: 440px;
