@@ -91,7 +91,7 @@
 }
 
 /*//-->collections//*/
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1300px) {
   div.collection-1, div.collection-2 {
     width: 510px;
     height: 510px;
