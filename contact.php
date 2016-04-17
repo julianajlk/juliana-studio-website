@@ -100,7 +100,7 @@
             </p>
             <br>
             <h3>Urgente? Ligue para:</h3>
-            <p><i class="fa fa-phone"></i> 85 3401-2000</p>
+            <p><i class="fa fa-phone"></i> (85)3401-2000</p>
             <br>
             <h3>Trabalhe conosco:</h3>
             <p class="email">
@@ -159,8 +159,8 @@
       </div>
     </div><!-- .footer-top -->
     <div class="footer-bottom">
-      <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados.</p>
-      <p class="design">Design & Desenvolvimento por <a href="http://www.girletc.com.br/studio">Girl Etc</a></p>
+        <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados. By <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
+        <p class="design">Design & Desenvolvimento por <a href="http://www.girletc.com.br/studio" target="_blank"><i>Girl Etc</i></a></p>
     </div><!-- .footer-bottom -->
 </footer>
 
