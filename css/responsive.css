@@ -90,7 +90,7 @@
 
 }
 
-/*//-->collections//*/
+/*//-->collections and contact page//*/
 @media only screen and (min-width: 1300px) {
   div.collection-1, div.collection-2 {
     width: 510px;
@@ -144,8 +144,12 @@
     margin: 0 auto;
   }
 
+  .contact-2 h2{
+    margin-top: 50px;
+  }
+
   .contact-2 {
-    padding: 50px 0 50px; /*/fix not working!!!/*/
+    padding: 50px 0 75px;
   }
 }
 

@@ -7,10 +7,10 @@
   ###################################
 
   // Set email address to send to i.e: you@yoursite.com
-  $sendTo       = 'you@yoursite.com';
+  $sendTo       = 'contato@amaredesign.com.br';
 
   // Set email subject (appears as subject)
-  $subject      = 'Exceptional Realty - Contact Form Submission';
+  $subject      = 'Amaré Design - Contato';
 
   //Set link to your success page
   $success_page = 'contact.php?s=success';

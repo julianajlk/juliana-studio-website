@@ -30,10 +30,10 @@
         <a class="menu-close"><i class="fa fa-times"></i></a>
         <ul id="menu-links">
           <li><a href="about.html">Sobre</a></li>
-          <li><a href="featured-tropical.html">Featured</a></li>
+          <li><a href="featured-tropical.html">Estampas</a></li>
           <li><a href="press.html">Press</a></li>
           <li><a href="services.html">Serviços</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Contato</a></li>
         </ul>
       </div>
       <div class="nav-3">
@@ -96,15 +96,15 @@
       <h2>Fale conosco</h2>
         <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br.br">contato@amaredesign.com.br.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">contato@amaredesign.com.br</a><br>
             </p>
             <br>
             <h3>Urgente? Ligue para:</h3>
-            <p><i class="fa fa-phone"></i> 85 3222 1234</p>
+            <p><i class="fa fa-phone"></i> 85 3401-2000</p>
             <br>
             <h3>Trabalhe conosco:</h3>
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br.br">jobs@amaredesign.com.br.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br>
             </p>
     </div>
 </div>

@@ -510,6 +510,66 @@ div.featured-3-b {  /*geo*/
 }
 
 
+/*///COLLECTION 1 and 2 ---PAGE///*/ 
+
+div.featured-collection1-1  {
+  background:url('../images/samples/collection-1/Cashew-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection1-2 {
+  background:url('../images/samples/collection-1/Cashew-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection1-3  {
+  background:url('../images/samples/collection-1/FruitMandalaWatercolor-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection1-4 {
+  background:url('../images/samples/collection-1/PineappleChevronFruit-01.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+
+div.featured-collection2-1  {
+  background:url('../images/samples/collection-2/WatercolorMonstera-03.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection2-2 {
+  background:url('../images/samples/collection-2/WatercolorMonstera-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection2-3  {
+  background:url('../images/samples/collection-2/WatercolorMonstera-04.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+div.featured-collection2-4 {
+  background:url('../images/samples/collection-2/MonsteraScroll-02.jpg');
+  background-size: 100%;
+  width: 510px;
+  height: 510px;
+}
+
+
 /*///ABOUT ---PAGE///*/
 
 
