@@ -162,6 +162,15 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  div.collection-1, div.collection-2 {
+    width: 280px;
+    height: 280px;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
 /*//--> main-logo & footer//*/
 @media only screen and (max-width: 900px) {
   
@@ -304,6 +313,18 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  div.featured-img {
+    width: 280px;
+    height: 280px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}
+
 
 /*//-->about//*/
 @media only screen and (min-width: 1366px){
@@ -360,6 +381,16 @@
   }
 }
 
+@media only screen and (max-width: 320px) {
+  #about h1 {
+    font-size: 1.75em;
+  }
+
+  #about p {
+    padding: 0 20px;
+  }
+}
+
 /*//-->about PAGE//*/
 @media only screen and (min-width: 1470px){
   .about-page {
@@ -368,10 +399,36 @@
   }
 }
 
+@media only screen and (max-width: 320px){
+  .about-page p {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+  .about-page p.about-caption {
+    font-size: 1.25em;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+
 /*//-->tagline//*/
 @media only screen and (max-width: 481px) {
   #tagline {
     height: 285px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #tagline {
+    height: 250px;
+  }
+
+  #tagline h1 {
+    margin: 0px;
+    font-size: 2em;
   }
 }
 
@@ -398,5 +455,12 @@
 @media only screen and (max-width: 610px){
   .services-items img {
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .services p {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
