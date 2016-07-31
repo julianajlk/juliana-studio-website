@@ -242,13 +242,13 @@
 }
 
 @media only screen and (max-width: 770px){
-  #collections { /*fixes ipad view*/
+  .foreground-feat #collections { /*fixes ipad view featured page*/
     width: 135%;
   }
-  #tagline { /*fixes ipad view*/
+  .foreground-feat #tagline { /*fixes ipad view featured page*/
     width: 135%;
   }
-  #footer-wrapper { /*fixes ipad view*/
+  .foreground-feat #footer-wrapper { /*fixes ipad view featured page*/
     width: 135%;
   }
 
@@ -439,6 +439,13 @@
   .about-page {
     padding-left: 200px;
     padding-right: 200px;
+  }
+}
+
+@media only screen and (min-width: 1040px){
+  .about-page p {
+    padding-right: 100px;
+    padding-left: 100px;
   }
 }
 
