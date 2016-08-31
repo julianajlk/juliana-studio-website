@@ -93,28 +93,31 @@
     <div class="form-group">
       <label for="fullname">Nome</label>
       <span id="fullname-error" class="error">Deve ser mais do que 2 caracteres.</span>
-      <input type="text" id="fullname" name="fullname" placeholder="your name">
+      <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Nome">
     </div>
 
     <div class="form-group">
       <label for="email">Email</label>
       <span id="email-error" class="error">Escreva um email válido.</span>
-      <input type="text" id="email" name="email" placeholder="your email">
+      <input class="form-control" type="text" id="email" name="email" placeholder="Email para contato">
     </div>
     
     <div class="form-group">      
       <label for="phone">Telefone</label>
-      <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
+      <input class="form-control" type="tel" id="phone" name="phone" placeholder="Telefone (opcional)">
     </div>
     
-    <div class="form-group">    
-      <label for="message">Menssagem</label>
+    <div class="form-group contact-text" >    
+      <label for="message">Mensagem</label>
       <span id="message-error" class="error">Escreva a sua mensagem aqui!</span>
-      <textarea id="message" name="message" rows="8"></textarea>
+      <textarea class="form-control" id="message" name="message" rows="4"></textarea>
     </div>
 
-    <input type="text" name="verify" class="verify-box" placeholder="verify you're human">
+    <div class="form-verification">
+    <input type="text" name="verify" class="verify-box form-control" placeholder="Digite o código ao lado">
     <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
+    <button type="submit" class="btn btn-default">Enviar</button>
+
           
     <input type="submit" value="send">
   </form>
