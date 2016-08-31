@@ -57,8 +57,4 @@ $(function() {
     }
   });
 
-  $('form').click(function(event) {
-    
-  });
-
 });

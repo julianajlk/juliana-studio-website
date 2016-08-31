@@ -53,12 +53,13 @@
       <?php if ($_GET['s'] == 'success') { ?>
         <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
       <?php } else if ($_GET['s'] == 'error') { ?>
-        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com (contato@amaredesign.com.br.br)</p>
+        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com contato@amaredesign.com.br.br</p>
       <?php } else { ?>
 
 
     <!-- Contact Form -->
-      <form class="contact-1" action="mailer.php" method="post">
+    <!-- 
+     <form class="contact-1" action="mailer.php" method="post">
         <div class="form-group">
           <label for="exampleInputName1">Nome</label>
           <input type="name" class="form-control" id="exampleInputName1" placeholder="Nome">
@@ -85,10 +86,44 @@
           
           <button type="submit" class="btn btn-default">Enviar</button>
         </div>
-      </form>
+      </form>-->
 
-      <?php } ?>
-  </div>
+      <!-- Contact Form -->
+  <form class="contact-1" action="mailer.php" method="post">
+    <div class="form-group">
+      <label for="fullname">Nome</label>
+      <span id="fullname-error" class="error">Deve ser mais do que 2 caracteres.</span>
+      <input type="text" id="fullname" name="fullname" placeholder="your name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <span id="email-error" class="error">Escreva um email válido.</span>
+      <input type="text" id="email" name="email" placeholder="your email">
+    </div>
+    
+    <div class="form-group">      
+      <label for="phone">Telefone</label>
+      <input type="tel" id="phone" name="phone" placeholder="your phone (optional)">
+    </div>
+    
+    <div class="form-group">    
+      <label for="message">Menssagem</label>
+      <span id="message-error" class="error">Escreva a sua mensagem aqui!</span>
+      <textarea id="message" name="message" rows="8"></textarea>
+    </div>
+
+    <input type="text" name="verify" class="verify-box" placeholder="verify you're human">
+    <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
+          
+    <input type="submit" value="send">
+  </form>
+
+
+  <?php } ?>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="contact.js"></script>
+  </div> 
 
   <div class="col-2 contact-content clearfix">
     <!-- Contact Info -->
@@ -102,9 +137,9 @@
             <h3>Urgente? Ligue para:</h3>
             <p><i class="fa fa-phone"></i> (85)3401-2000</p>
             <br>
-            <h3>Trabalhe conosco:</h3>
+            <!-- <h3>Trabalhe conosco:</h3>
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br> -->
             </p>
     </div>
 </div>
