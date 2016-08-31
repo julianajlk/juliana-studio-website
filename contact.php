@@ -46,9 +46,9 @@
     </nav>
   </section> 
 
- <div class="contact">
-    <h1>Contato</h1>
-    <div class="col-1 contact-content">
+<div class="contact">
+  <h1>Contato</h1>
+  <div class="col-1 contact-content">
 
       <?php if ($_GET['s'] == 'success') { ?>
         <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
@@ -56,72 +56,37 @@
         <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com contato@amaredesign.com.br.br</p>
       <?php } else { ?>
 
-
-    <!-- Contact Form -->
-    <!-- 
-     <form class="contact-1" action="mailer.php" method="post">
-        <div class="form-group">
-          <label for="exampleInputName1">Nome</label>
-          <input type="name" class="form-control" id="exampleInputName1" placeholder="Nome">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputCompany1">Empresa (opcional)</label>
-          <input type="company" class="form-control" id="exampleInputCompany1" placeholder="Empresa">
-        </div>
-          <div class="form-group">
-          <label for="exampleInputPhone1">Telefone (opcional)</label>
-          <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="XX-XXXX-XXXX">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-        </div>
-        <div class="form-group contact-text">
-          <p>Mensagem</p>
-          <textarea class="form-control" rows="3"></textarea>
-        </div>
-        <div class="form-verification">
-          <input type="text" name="verify" class="verify-box form-control" placeholder="Digite o código ao lado">
-          <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
-          
-          <button type="submit" class="btn btn-default">Enviar</button>
-        </div>
-      </form>-->
-
       <!-- Contact Form -->
-  <form class="contact-1" action="mailer.php" method="post">
-    <div class="form-group">
-      <label for="fullname">Nome</label>
-      <span id="fullname-error" class="error">Deve ser mais do que 2 caracteres.</span>
-      <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Nome">
-    </div>
+    <form class="contact-1" action="mailer.php" method="post">
+      <div class="form-group">
+        <label for="fullname">Nome</label>
+        <span id="fullname-error" class="error">Deve ser mais do que 2 caracteres.</span>
+        <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Nome">
+      </div>
 
-    <div class="form-group">
-      <label for="email">Email</label>
-      <span id="email-error" class="error">Escreva um email válido.</span>
-      <input class="form-control" type="text" id="email" name="email" placeholder="Email para contato">
-    </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <span id="email-error" class="error">Escreva um email válido.</span>
+        <input class="form-control" type="text" id="email" name="email" placeholder="Email para contato">
+      </div>
     
-    <div class="form-group">      
-      <label for="phone">Telefone</label>
-      <input class="form-control" type="tel" id="phone" name="phone" placeholder="Telefone (opcional)">
-    </div>
+      <div class="form-group">      
+        <label for="phone">Telefone</label>
+        <input class="form-control" type="tel" id="phone" name="phone" placeholder="Telefone (opcional)">
+      </div>
     
-    <div class="form-group contact-text" >    
-      <label for="message">Mensagem</label>
-      <span id="message-error" class="error">Escreva a sua mensagem aqui!</span>
-      <textarea class="form-control" id="message" name="message" rows="4"></textarea>
-    </div>
+      <div class="form-group contact-text" >    
+        <label for="message">Mensagem</label>
+        <span id="message-error" class="error">Escreva a sua mensagem aqui!</span>
+        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+      </div>
 
-    <div class="form-verification">
-    <input type="text" name="verify" class="verify-box form-control" placeholder="Digite o código ao lado">
-    <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
-    <button type="submit" class="btn btn-default">Enviar</button>
-
-          
-    <input type="submit" value="send">
-  </form>
-
+      <div class="form-verification">
+        <input type="text" name="verify" class="verify-box form-control" placeholder="Digite o código ao lado">
+        <img class="verify-img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </div>
+    </form>
 
   <?php } ?>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
@@ -142,35 +107,12 @@
             <br>
             <!-- <h3>Trabalhe conosco:</h3>
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br> -->
-            </p>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br>
+            </p> -->
+            
     </div>
-</div>
+  </div>
 </div> <!-- .container -->
-
-<!-- <form>
-  <div id="contact_fields">
-    <h3 class="form_section_heading">PLEASE ENTER YOUR CONTACT DETAILS</h3>
-    <input id="inquiry_company_name" type="text" placeholder="Company name" name="inquiry[company_name]">
-    <input id="inquiry_contact_phone" class="omega" type="text" placeholder="Contact phone (optional)" name="inquiry[contact_phone]">
-    <input id="inquiry_contact_name" type="text" placeholder="Contact name" name="inquiry[contact_name]">
-    <input id="inquiry_company_url" class="omega" type="text" placeholder="Company url (optional)" name="inquiry[company_url]">
-    <input id="inquiry_email_address" type="text" placeholder="Email address" name="inquiry[email_address]">
-  </div>
-  <div id="company_fields">
-    <h3 class="form_section_heading">TELL US ABOUT YOUR COMPANY</h3>
-    <textarea id="inquiry_company_description" placeholder="A brief description of your company" name="inquiry[company_description]"></textarea>
-    <input id="inquiry_budget_estimate" class="omega" type="text" placeholder="Budget estimated for design services" name="inquiry[budget_estimate]">
-  </div>
-  <div id="comments_container">
-    <textarea id="inquiry_comments" placeholder="Please include any comments/questions about your design needs..." name="inquiry[comments]"></textarea>
-  </div>
-  <div id="submit_container">
-    <input class="button pointer borders" type="submit" value="SUBMIT INFO" name="commit" data-disable-with="SUBMITTING...">
-    <h4 style="display:none;">Thank you for your inquiry. We will be in touch!</h4>
-  </div>
-</form> -->
-
 
 
 <section class="home-page" id="tagline">
