@@ -56,7 +56,7 @@
   </div>
 
 <div class="contact">
-  <h1>Contato</h1>
+  <h2>Contato</h2>
   <div class="col-1 contact-content">
 
       <?php if ($_GET['s'] == 'success') { ?>
