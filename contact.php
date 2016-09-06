@@ -12,7 +12,6 @@
 
 <body>
  <div class="foreground-feat">
-
     <section id="screen1">
     <nav class="navbar">
       <div class="nav-1">
@@ -114,6 +113,9 @@
             <h3>Urgente? Ligue para:</h3>
             <p><i class="fa fa-phone"></i> (85)3401-2000</p>
             <br>
+            <h3>Localização:</h3>
+            <p><i class="fa fa-map-marker"></i> Fortaleza/Maracanaú, Ceará</p>
+            <br>
             <!-- <h3>Trabalhe conosco:</h3>
             <p class="email">
               <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br>
@@ -149,7 +151,7 @@
     </div><!-- .footer-top -->
     <div class="footer-bottom">
         <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados. <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
-        <!-- <p class="design">Design & Desenvolvimento por <a href="http://estudio.girletc.com.br/" target="_blank"><i>Girl Etc</i></a></p> -->
+        <!-- <p class="design">Design & Desenvolvimento por <a href="#" target="_blank"><i></i></a></p> -->
     </div><!-- .footer-bottom -->
 </footer>
 
