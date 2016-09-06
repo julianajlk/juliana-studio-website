@@ -11,23 +11,14 @@
 
 
 <body>
- <!--  <header>
-    <div id="background-overlay">
-    </div>
-    <div id="background">
-    </div>
-    <div id="logo">
-      <img class="main-logo" src="images/studio-logo-main.png">
-    </div>
-  </header>  -->
+ <div class="foreground-feat">
 
-  <section id="screen1">
-    <nav class="navbar navbar-other">
+    <section id="screen1">
+    <nav class="navbar">
       <div class="nav-1">
         <a href="index.html"><img class="logo-menu" src="images/studio-logo-menu.png"></a>
       </div>
       <div class="nav-2">
-        <a class="menu-close"><i class="fa fa-times"></i></a>
         <ul id="menu-links">
           <li><a href="about.html">Sobre</a></li>
           <li><a href="featured-tropical.html">Estampas</a></li>
@@ -41,10 +32,28 @@
           <a href="http://facebook.com/amaredesignbr"><i class="fa fa-facebook fa-fw"></i></a>
           <a href="http://instagram.com/amaredesign"><i class="fa fa-instagram fa-fw"></i></a>
         </div>
-        <a class="menu-icon"><i class="fa fa-bars"></i></a>
+        <!-- Use any element to open/show the overlay navigation menu -->
+          <span class= "menu-responsive" style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
       </div>
     </nav>
   </section> 
+</div>
+   
+<!-- menu-responsive open window -->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close menu -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="about.html">Sobre</a>
+      <a href="featured-tropical.html">Estampas</a>
+      <a href="press.html">Na Mídia</a>
+      <a href="services.html">Serviços</a>
+      <a href="contact.php">Contato</a>
+    </div>
+  </div>
 
 <div class="contact">
   <h1>Contato</h1>
@@ -140,7 +149,7 @@
     </div><!-- .footer-top -->
     <div class="footer-bottom">
         <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados. <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
-        <p class="design">Design & Desenvolvimento por <a href="http://estudio.girletc.com.br/" target="_blank"><i>Girl Etc</i></a></p>
+        <!-- <p class="design">Design & Desenvolvimento por <a href="http://estudio.girletc.com.br/" target="_blank"><i>Girl Etc</i></a></p> -->
     </div><!-- .footer-bottom -->
 </footer>
 

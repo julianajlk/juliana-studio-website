@@ -30,26 +30,6 @@ $(window).on('load', function() {
 
 
 $(function() {
-  // mobile-menu
-  $('a.menu-icon').click(function() {
-    $('#menu-links').slideToggle();
-    $('body').css({'overflow':'hidden'});
-    $('#social').show();
-    $('#social').css({
-      'display': 'block',
-      'position': 'absolute',
-      'width': '100%',
-      'text-align': 'center',
-      'left': '0'
-    });
-  });
-
-  $('.menu-close').click(function(){
-    $('#menu-links').hide();
-    $('body').removeAttr('style');
-    $('#social').removeAttr('style');
-    $('#social').removeAttr('style');
-  });
 
   // fix hidden links on window resize
 
@@ -91,5 +71,14 @@ $(this).find('.title-hover').fadeTo(400,0);
 });
 
 
+//menu responsive//
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
 
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
 
