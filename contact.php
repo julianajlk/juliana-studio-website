@@ -150,7 +150,7 @@
       </div>
     </div><!-- .footer-top -->
     <div class="footer-bottom">
-        <p class="copyright">&copy; 2015 Amaré Studio. Todos os direitos reservados. <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
+        <p class="copyright">&copy; 2015 Amaré Design. Todos os direitos reservados. <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
         <!-- <p class="design">Design & Desenvolvimento por <a href="#" target="_blank"><i></i></a></p> -->
     </div><!-- .footer-bottom -->
 </footer>
