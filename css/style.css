@@ -962,10 +962,18 @@ div.more-featured {
 
 .press p {
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .press-items {
   padding-top: 20px;
+}
+
+.press-img {
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*///SERVICES ---PAGE///*/ 
