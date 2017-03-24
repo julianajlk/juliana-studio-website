@@ -6,9 +6,9 @@
   # MIT License (see details below) #
   ###################################
   // Set email address to send to i.e: you@yoursite.com
-  $sendTo       = 'contato@amaredesign.com.br';
+  $sendTo       = 'contato@lorem.br.com.br';
   // Set email subject (appears as subject)
-  $subject      = 'Amaré Design - Contato';
+  $subject      = 'Studio - Contato';
   //Set link to your success page
   $success_page = 'contact.php?s=success';
   //Set link to your error page

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  <title>Contato | Amaré</title>
+  <title>Contato | Studio</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -28,8 +28,8 @@
       </div>
       <div class="nav-3">
         <div id="social">
-          <a href="http://facebook.com/amaredesignbr" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
-          <a href="http://instagram.com/amaredesign" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
+          <a href="http://facebook.com/julianastudio" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+          <a href="http://instagram.com/julianastudio" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
         </div>
         <!-- Use any element to open/show the overlay navigation menu -->
           <span class= "menu-responsive" style="font-size:18px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
@@ -62,7 +62,7 @@
       <?php if ($_GET['s'] == 'success') { ?>
         <p>Sua mensagem será respondida em 48 horas. Obrigado!</p>
       <?php } else if ($_GET['s'] == 'error') { ?>
-        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com contato@amaredesign.com.br.br</p>
+        <p>Erro. Sua mensagem não foi enviada! Verifique todas as informações, incluindo o código de verificação.<a href="contact.php">Clique aqui para tentar novamente</a>. Se erros persistirem, por favor entre em contato com contato@julianastudio.com.br.br</p>
       <?php } else { ?>
 
       <!-- Contact Form -->
@@ -71,6 +71,12 @@
         <label for="fullname">Nome</label>
         <span id="fullname-error" class="error">Deve ser mais do que 2 caracteres.</span>
         <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Nome">
+      </div>
+
+      <div class="form-group">
+        <label for="fullname">Empresa</label>
+        <span id="empresa-error" class="error">Deve ser mais do que 2 caracteres.</span>
+        <input class="form-control" type="text" id="empresa" name="empresa" placeholder="Empresa">
       </div>
 
       <div class="form-group">
@@ -108,18 +114,18 @@
       <h2>Fale conosco</h2>
         <p>Entre em contato preenchendo o formulário, <br>ou se preferir mande um email para:</p> 
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">contato@amaredesign.com.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@julianastudio.com.br">contato@julianastudio.com..brbr</a><br>
             </p>
             <br>
             <h3>Urgente? Ligue para:</h3>
-            <p><i class="fa fa-phone"></i> (85)3401-2000</p>
+            <p><i class="fa fa-phone"></i> (00)0001-0000</p>
             <br>
             <h3>Localização:</h3>
-            <p><i class="fa fa-map-marker"></i> Fortaleza/Maracanaú, Ceará</p>
+            <p><i class="fa fa-map-marker"></i> New York, NY</p>
             <br>
             <!-- <h3>Trabalhe conosco:</h3>
             <p class="email">
-              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@amaredesign.com.br">jobs@amaredesign.com.br</a><br>
+              <i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:contato@julianastudio.com.br">jobs@julianastudio.com.br</a><br>
             </p> -->
             
     </div>
@@ -128,8 +134,8 @@
 
 
 <section class="home-page" id="tagline">
-    <h1>Criar, Estampar, Amar</h1>
-    <p>Made with &#9829 in Ceará</p>
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Made with &#9829 in NY</p>
     <div class="tagline-symbol">
       <img class="single-symbol" src="images/studio-single-cactus-2.png">
     </div>
@@ -145,13 +151,13 @@
         <li><a href="contato.html">Contato</a></li>
       </ul>
       <div id="social-footer">
-        <a href="http://facebook.com/amaredesignbr" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
-        <a href="http://instagram.com/amaredesign" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
-        <a href="http://behance.net/amaredesign" target="_blank"><i class="fa fa-behance fa-fw"></i></a>
+        <a href="http://facebook.com/julianastudiobr" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+        <a href="http://instagram.com/julianastudio" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
+        <a href="http://behance.net/julianastudio" target="_blank"><i class="fa fa-behance fa-fw"></i></a>
       </div>
     </div><!-- .footer-top -->
     <div class="footer-bottom">
-        <p class="copyright">&copy; 2015 Amaré Design. Todos os direitos reservados. <a href="http://www.pemalex.com.br" target="_blank"><i>Pemalex Indústria Têxtil</i></a></p>
+        <p class="copyright">&copy; 2015 Studio. Todos os direitos reservados. <a href="http://www.lorem.br.com.br" target="_blank"><i>Lorem IPsum</i></a></p>
         <!-- <p class="design">Design & Desenvolvimento por <a href="#" target="_blank"><i></i></a></p> -->
     </div><!-- .footer-bottom -->
 </footer>
